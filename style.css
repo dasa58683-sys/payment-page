@@ -9,6 +9,10 @@ box-sizing: border-box;
     width: 100%;
 }
 
+body{
+    /* padding-bottom: 0px; */
+}
+
 /*==========================
         PAYMENT HEADER
 ===========================*/
@@ -49,7 +53,7 @@ box-sizing: border-box;
 
 .back-btn i{
 
-    font-size:24px;
+    font-size:20px;
 
     color:#111111;
 
@@ -67,7 +71,7 @@ box-sizing: border-box;
 
 .payment-title span{
 
-    font-size:14px;
+    font-size:12px;
 
     color:#666666;
 
@@ -76,7 +80,7 @@ box-sizing: border-box;
 
 .payment-title h2{
 
-    font-size:24px;
+    font-size:18px;
 
     color:#111111;
 
@@ -106,14 +110,14 @@ box-sizing: border-box;
 
     color:#555555;
 
-    font-size:14px;
+    font-size:12px;
 
 }
 
 
 .secure-badge p{
 
-    font-size:14px;
+    font-size:12px;
 
     font-weight:600;
 
@@ -150,15 +154,12 @@ box-sizing: border-box;
 
 }
 
+.amount-info h3{
+    font-size: 18px;
+}
 
-.amount-left h3{
-
-    font-size: 24px;
-
-    font-weight: 600;
-
-    color: #3355cc;
-
+.amount-info h2{
+    font-size: 18px;
 }
 
 
@@ -172,7 +173,7 @@ box-sizing: border-box;
 
     color: #3355cc;
 
-    font-size: 16px;
+    font-size: 14px;
 
     cursor: pointer;
 
@@ -182,17 +183,6 @@ box-sizing: border-box;
 .view-details i{
 
     margin-left: 6px;
-
-}
-
-
-.amount-right h2{
-
-    font-size: 42px;
-
-    font-weight: 700;
-
-    color: #3355cc;
 
 }
 
@@ -323,7 +313,7 @@ box-sizing: border-box;
 
     margin-top: 8px;
 
-    font-size: 18px;
+    font-size: 17px;
 
     color: #15803d;
 
@@ -346,7 +336,7 @@ box-sizing: border-box;
 
     margin-top: 8px;
 
-    font-size: 15px;
+    font-size: 13px;
 
     color: #15803d;
 
@@ -359,16 +349,16 @@ box-sizing: border-box;
 
     align-items: center;
 
-    gap: 8px;
+    gap: 2px;
 
 }
 
 
 .prepaid-logos img{
 
-    width: 35px;
+    width: 30px;
 
-    height: 35px;
+    height: 30px;
 
     object-fit: contain;
 
@@ -383,9 +373,9 @@ box-sizing: border-box;
 
 .more-offers{
 
-    width: 42px;
+    width: 30px;
 
-    height: 42px;
+    height: 30px;
 
     border-radius: 50%;
 
@@ -397,9 +387,9 @@ box-sizing: border-box;
 
     align-items: center;
 
-    font-size: 16px;
+    font-size: 13px;
 
-    font-weight: 700;
+    font-weight: 600;
 
     color: #111111;
 
@@ -418,7 +408,7 @@ box-sizing: border-box;
 
 .payment-methods h2{
 
-    font-size:20px;
+    font-size:17px;
 
     color:#111111;
 
@@ -457,7 +447,7 @@ box-sizing: border-box;
 
 .payment-top p{
 
-    font: size 16px;
+    font-size: 15px;
 
     font-weight:600;
 
@@ -468,7 +458,7 @@ box-sizing: border-box;
 
 .payment-top i{
 
-    font-size:18px;
+    font-size:15px;
 
     color:#666666;
 
@@ -522,7 +512,7 @@ box-sizing: border-box;
 
     flex:1;
 
-    font-size:17px;
+    font-size:14px;
 
     font-weight:500;
 
