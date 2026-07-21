@@ -4,252 +4,419 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Saree</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Saree Sanskriti</title>
-  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
 </head>
+</head>
+<body>
     
-  <!-- header -->
+<!--==========================
+        PAYMENT HEADER
+===========================-->
 
-<header class="checkout-header">
+<header class="payment-header">
 
-    <button class="back-btn">
+    <div class="back-btn">
+
         <i class="fa-solid fa-arrow-left"></i>
-    </button>
 
-    <h3>Checkout</h3>
+    </div>
+
+    <div class="payment-title">
+
+        <span>Step 3 of 3</span>
+
+        <h2>Payments</h2>
+
+    </div>
+
+    <div class="secure-badge">
+
+        <i class="fa-solid fa-lock"></i>
+
+        <p>100% Secure</p>
+
+    </div>
 
 </header>
 
-<div class="secure-banner">
-    <i class="fa-solid fa-lock"></i>
-    <span>100% Secure Checkout</span>
-</div>
-
-<!-- ==========================
-      DELIVERY ADDRESS
-========================== -->
-
-<section class="delivery-card">
-
-    <div class="delivery-header">
-
-        <div class="delivery-title">
-
-            <div class="step-number">1</div>
-
-            <h3>Delivery Address</h3>
-
-        </div>
-
-        <button class="change-btn">
-            Change
-        </button>
-
-    </div>
-
-    <div class="delivery-content">
-
-        <div class="location-icon">
-
-            <i class="fa-solid fa-location-dot"></i>
-
-        </div>
-
-        <div class="address-info">
-
-            <h4>Anish Das</h4>
-
-            <p>+91 9876543210</p>
-
-            <span>
-                Baghajatin Colony,
-                Siliguri,<br>
-                West Bengal - 734001
-            </span>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================
-        ORDER ITEMS
-========================== -->
-
-<section class="order-card">
-
-    <div class="order-header">
-
-        <div class="order-title">
-
-            <div class="step-number">2</div>
-
-            <h3>Order Items (1)</h3>
-
-        </div>
-
-        <button class="edit-btn">
-            Edit
-        </button>
-
-    </div>
-
-    <div class="order-product">
-
-        <div class="product-image">
-
-            <img src="kudta1.jpeg" alt="Product">
-
-        </div>
-
-        <div class="product-details">
-
-            <h4>Pink Banarasi Silk Saree</h4>
-
-            <p>Size : Free Size • Qty : 1</p>
-
-            <div class="product-price">
-
-                <span class="new-price">₹1,599</span>
-
-                <span class="old-price">₹2,499</span>
-
-                <span class="discount">36% OFF</span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
 <!--==========================
-      PRICE DETAILS
+        TOTAL AMOUNT CARD
 ===========================-->
 
-<section class="checkout-price-card">
+<section class="total-amount-card">
 
-    <div class="price-header">
+    <div class="amount-info">
 
-        <div class="price-title">
+        <!-- <h3>Total Amount</h3> -->
+         <button class="view-details">
 
-            <div class="step-number">3</div>
+        Amount Details
 
-            <h3>Price Details</h3>
-
-        </div>
-
-    </div>
-
-    <div class="price-list">
-
-        <div class="price-row">
-
-            <span>Price (2 Items)</span>
-
-            <span>₹4,998</span>
-
-        </div>
-
-        <div class="price-row">
-
-            <span>Discount</span>
-
-            <span class="green">-₹1,700</span>
-
-        </div>
-
-        <div class="price-row">
-
-            <span>Delivery Charges</span>
-
-            <span class="green">FREE</span>
-
-        </div>
-
-        <div class="price-row">
-
-            <span>Coupon Discount</span>
-
-            <span class="green">-₹300</span>
-
-        </div>
-
-    </div>
-
-    <div class="price-divider"></div>
-
-    <div class="total-row">
-
-        <span>Total Amount</span>
-
-        <span>₹2,998</span>
-
-    </div>
-
-    <div class="saving-message">
-
-        <i class="fa-solid fa-circle-check"></i>
-
-        <span>You saved ₹2,000 on this order</span>
-
-    </div>
-
-</section>
-
-<!--==========================
-      TERMS & CONDITIONS
-===========================-->
-
-<section class="terms-card">
-
-    <label class="terms-check">
-
-        <input type="checkbox" checked>
-
-        <span>
-            I agree to the
-            <a href="#">Terms & Conditions</a>
-            and
-            <a href="#">Privacy Policy</a>.
-        </span>
-
-    </label>
-
-</section>
-
-
-<!--==========================
-      STICKY CHECKOUT BAR
-===========================-->
-
-<div class="checkout-bar">
-
-    <div class="checkout-left">
-
-        <h3>₹2,998</h3>
-
-        <p>Total Amount</p>
-
-    </div>
-
-    <form action="https://dasa58683-sys.github.io/payment-page/">
-
-    <button class="continue-btn">
-
-        Continue
-
-        <i class="fa-solid fa-arrow-right"></i>
+        <i class="fa-solid fa-angle-down"></i>
 
     </button>
 
-    </form>
+        <h2>₹1,459</h2>
+
+    </div>
+
+    <!-- <button class="view-details">
+
+        View Details
+
+        <i class="fa-solid fa-angle-down"></i>
+
+    </button> -->
+
+
+    <!-- Dropdown Section -->
+
+    <div class="amount-dropdown">
+
+        <div class="price-row">
+            <p>Price (2 Items)</p>
+            <span>₹1,999</span>
+        </div>
+
+        <div class="price-row">
+            <p>Discount</p>
+            <span>- ₹500</span>
+        </div>
+
+        <div class="price-row">
+            <p>Coupon Discount</p>
+            <span>- ₹40</span>
+        </div>
+
+        <div class="price-row">
+            <p>Delivery</p>
+            <span>FREE</span>
+        </div>
+
+        <hr>
+
+        <div class="price-row total">
+
+            <p>Total Amount</p>
+            <span>₹1,459</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+       PREPAID REWARDS CARD
+===========================-->
+
+<section class="prepaid-card">
+
+    <div class="prepaid-content">
+
+        <p class="cashback-text">
+           5% Cashback
+        </p>
+
+        <span>
+           Claim now with payment offers
+        </span>
+
+    </div>
+
+
+    <div class="prepaid-logos">
+
+        <img src="google pay.jpeg"
+        alt="Google Pay">
+
+        <img src="visa.jpeg"
+        alt="Visa">
+
+        <div class="more-offers">
+
+            +3
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+       PAYMENT METHODS
+===========================-->
+
+<section class="payment-methods">
+
+    <h2>Choose Payment Method</h2>
+
+</section>
+
+
+<!-- UPI -->
+
+<!--==========================
+            UPI
+===========================-->
+
+<div class="payment-method-card2">
+
+    <div class="payment-top">
+
+        <div class="payment-method">
+
+        <img src="upi logo.jpeg" alt="upi" class="payment-icon">    
+
+        <p>UPI</p>
+
+        </div>
+
+        <i class="fa-solid fa-angle-up"></i>
+
+    </div>
+
+    <div class="payment-content">
+
+    <div class="upi-options">
+
+        <div class="upi-item">
+
+            <input type="radio" name="upi">
+
+            <span>Google Pay</span>
+
+            <img src="google pay.jpeg"
+            alt="Google Pay">
+
+        </div>
+
+
+        <div class="upi-item">
+
+            <input type="radio" name="upi">
+
+            <span>PhonePe</span>
+
+            <img src="phonepe.jpeg"
+            alt="PhonePe">
+
+        </div>
+
+        <div class="upi-item">
+
+            <input type="radio" name="upi">
+
+            <span>BHIM UPI</span>
+
+            <img src="upi.jpeg"
+            alt="BHIM">
+
+        </div>
+
+        <button class="upi-btn">
+
+    Pay ₹1459
+
+</button>
+
+    </div>
+
+    </div>
 
 </div>
-    
+
+
+
+<!--==========================
+    CREDIT / DEBIT CARD
+===========================-->
+
+<div class="payment-method-card">
+
+    <div class="payment-top">
+        <div class="payment-method">
+
+        <img src="card icon.jpeg" alt="emi" class="payment-icon">    
+        <p>Credit / Debit / ATM Card</p>
+
+        </div>
+
+        <i class="fa-solid fa-angle-up"></i>
+
+    </div>
+
+    <div class="payment-content">
+
+    <div class="card-logos">
+
+        <img src="visa.jpeg">
+
+        <img src="mastercard.jpeg">
+
+        <img src="rupay.jpeg">
+
+    </div>
+
+
+    <input type="text"
+    placeholder="Card Number">
+
+    <input type="text"
+    placeholder="Card Holder Name">
+
+
+    <div class="card-details">
+
+        <input type="text"
+        placeholder="MM / YY">
+
+        <input type="password"
+        placeholder="CVV">
+
+    </div>
+
+
+    <button class="card-btn">
+
+        Pay with Card
+
+    </button>
+
+    </div>
+
+</div>
+
+
+<!--==========================
+              EMI
+===========================-->
+
+<div class="payment-method-card">
+
+    <div class="payment-top">
+
+        <div class="payment-method">
+
+         <img src="emi.jpeg" alt="emi" class="payment-icon">   
+
+        <p>EMI</p>
+
+        </div>
+
+        <i class="fa-solid fa-angle-up"></i>
+
+    </div>
+
+    <div class="payment-content">
+
+    <div class="emi-info">
+
+        <h4>Easy Monthly Installments</h4>
+
+        <p>Starting from ₹122 / month</p>
+
+    </div>
+
+
+    <div class="emi-options">
+
+        <div class="emi-item">
+
+            <input type="radio" name="emi">
+
+            <span>3 Months</span>
+
+            <small>₹487 / month</small>
+
+        </div>
+
+
+        <div class="emi-item">
+
+            <input type="radio" name="emi">
+
+            <span>6 Months</span>
+
+            <small>₹244 / month</small>
+
+        </div>
+
+
+        <div class="emi-item">
+
+            <input type="radio" name="emi">
+
+            <span>9 Months</span>
+
+            <small>₹163 / month</small>
+
+        </div>
+
+
+        <div class="emi-item">
+
+            <input type="radio" name="emi">
+
+            <span>12 Months</span>
+
+            <small>₹122 / month</small>
+
+        </div>
+
+    </div>
+
+
+    <button class="emi-btn">
+
+        Continue with EMI
+
+    </button>
+
+    </div>
+
+</div>
+
+<!--==========================
+       CASH ON DELIVERY
+===========================-->
+
+<div class="payment-method-card">
+
+    <div class="payment-top">
+
+        <div class="payment-method">
+
+        <img src="cash on delivery.jpeg" alt="cash on delivery" class="payment-icon"> 
+
+        <p>Cash on Delivery</p>
+
+        </div>
+
+        <i class="fa-solid fa-angle-up"></i>
+
+    </div>
+
+    <div class="payment-content">
+
+    <div class="cod-info">
+
+    <p>A ₹49 convenience fee may apply on Cash on Delivery orders.</p>
+
+    </div>
+
+     <button class="cod-btn">
+
+        Place Order
+
+    </button>
+
+    </div>
+
+</div>
+
 <script src="script.js"></script>
+
 </body>
-</html>
