@@ -1,3 +1,14 @@
+const viewDetails = document.querySelector(".view-details");
+
+const totalCard = document.querySelector(".total-amount-card");
+
+
+viewDetails.addEventListener("click", () => {
+
+    totalCard.classList.toggle("active");
+
+});
+
 const btn = document.querySelector(".view-details");
 const dropdown = document.querySelector(".amount-dropdown");
 const icon = btn.querySelector("i");
