@@ -460,6 +460,17 @@ box-sizing: border-box;
 
 }
 
+.payment-method{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.payment-icon{
+    width: 30px;
+    height: 20px;
+}
+
 /*==========================
          UPI SECTION
 ===========================*/
@@ -960,7 +971,7 @@ box-sizing: border-box;
     max-height: 0;
     overflow: hidden;
 
-    transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in;
 
 }
 
