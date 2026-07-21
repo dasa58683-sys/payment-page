@@ -182,12 +182,44 @@ box-sizing: border-box;
 
 }
 
-.amount-dropdown{
+/* .amount-dropdown{
 
     display: none;
 
     margin-top: 20px;
 
+} */
+
+.amount-dropdown{
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+    padding-top: 0;
+
+    transition:
+    max-height 2s ease,
+    opacity 0.45s ease,
+    padding-top 0.3s ease;
+
+}
+
+
+.total-amount-card.active .amount-dropdown{
+
+    max-height: 500px;
+    opacity: 1;
+    padding-top: 20px;
+
+}
+
+.view-details i {
+    transition: transform 10s ease;
+}
+
+.total-amount-card.active .view-details i {
+    transform: rotate(180deg);
 }
 
 .price-row{
